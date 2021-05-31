@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "name": "Perkedel kentang",
+    "img": "https://kulinerkota.com/wp-content/uploads/2020/07/perkedel-kentang.jpg",
+    "ingredients": [
+      {
+        "name": "kentang",
+        "qty": "4",
+        "units": "buah"
+      },
+      {
+        "name": "bawang putih",
+        "qty": "3",
+        "units": "siung"
+      },
+      {
+        "name": "bawang merah",
+        "qty": "5",
+        "units": "siung"
+      },
+      {
+        "name": "daun bawang",
+        "qty": "0",
+        "units": "secukupnya"
+      },
+      {
+        "name": "garam",
+        "qty": "1/2",
+        "units": "sendok teh"
+      },
+      {
+        "name": "lada",
+        "qty": "1",
+        "units": "sendok teh"
+      },
+      {
+        "name": "telur",
+        "qty": "1",
+        "units": "buah"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Steak daging",
+    "img": "https://www.resepkuerenyah.com/wp-content/uploads/2016/11/22.-resep-steak-daging-sapi.jpg",
+    "ingredients": [
+      {
+        "name": "bawang putih halus",
+        "qty": "3",
+        "units": "buah"
+      },
+      {
+        "name": "saus barbeque",
+        "qty": "4",
+        "units": "sendok teh"
+      },
+      {
+        "name": "margarin",
+        "qty": "0",
+        "units": "secukupnya"
+      },
+      {
+        "name": "saus tiram",
+        "qty": "3",
+        "units": "sendok teh"
+      },
+      {
+        "name": "garam",
+        "qty": "1/2",
+        "units": "sendok teh"
+      },
+      {
+        "name": "lada",
+        "qty": "1",
+        "units": "sendok teh"
+      },
+      {
+        "name": "minyak wijen",
+        "qty": "1",
+        "units": "sendok teh"
+      },
+      {
+        "name": "origano",
+        "qty": "0",
+        "units": "secukupnya"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Nugget ayam",
+    "img": "https://blog.tokowahab.com/wp-content/uploads/2020/04/Resep-Nugget-Ayam.jpeg",
+    "ingredients": [
+      {
+        "name": "ayam fillet",
+        "qty": "500",
+        "units": "gram"
+      },
+      {
+        "name": "bawang putih",
+        "qty": "4",
+        "units": "siung"
+      },
+      {
+        "name": "bawang bombay",
+        "qty": "1",
+        "units": "buah"
+      },
+      {
+        "name": "wortel",
+        "qty": "1",
+        "units": "buah"
+      },
+      {
+        "name": "daun bawang",
+        "qty": "2",
+        "units": "buah"
+      },
+      {
+        "name": "telur",
+        "qty": "1",
+        "units": "buah"
+      },
+      {
+        "name": "tepung terigu",
+        "qty": "3",
+        "units": "sendok makan"
+      },
+      {
+        "name": "tepung sagu",
+        "qty": "3",
+        "units": "sendok makan"
+      },
+      {
+        "name": "garam",
+        "qty": "1/2",
+        "units": "sendok teh"
+      },
+      {
+        "name": "lada",
+        "qty": "1",
+        "units": "sendok teh"
+      },
+      {
+        "name": "kaldu jamur",
+        "qty": "1",
+        "units": "sendok teh"
+      },
+      {
+        "name": "royco",
+        "qty": "0",
+        "units": "secukupnya"
+      }
+    ]
+  }
+]

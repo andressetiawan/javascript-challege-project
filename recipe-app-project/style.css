@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.recipes-container {
+  position: relative;
+  width: 500px;
+}
+
+.recipes-header {
+  box-shadow: 0px 0px 16px 2px rgb(200, 200, 200);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.recipes-header ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.25rem;
+  margin-top: 0.65rem;
+}
+
+.recipes-header li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-img {
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  width: 80px;
+  height: 80px;
+  padding: 0.25rem;
+  border: 2px dashed black;
+  cursor: pointer;
+}
+
+.header-img:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.body-img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.modal-container {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+}
+
+.recipes-body {
+  padding: 2rem 0rem;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.recipes-body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-desc {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding-left: 3rem;
+}
+.body-desc > h2 {
+  margin-bottom: 0.25rem;
+}
+
+.btn-favorite {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.btn-favorite:hover,
+.btn-favorite.active {
+  color: red;
+}
+
+.recipes-desc {
+  display: none;
+  color: white;
+  padding: 1rem;
+  z-index: 1;
+  border: 1px solid rgba(200, 200, 200, 0.65);
+  position: absolute;
+  top: 1.5rem;
+  left: 2.25rem;
+  width: 25rem;
+  height: 30rem;
+  border-radius: 8px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.recipes-desc > p {
+  font-size: 1.15rem;
+  color: black;
+}
+
+.recipes-desc h1 {
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+}
+
+.desc-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-close {
+  cursor: pointer;
+}
+
+.ingredients-text {
+  text-transform: capitalize;
+}
