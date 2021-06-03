@@ -1,1 +1,1 @@
-# Vanilla javascript Challenge Projects!
+# Javascript Challenge Projects!
