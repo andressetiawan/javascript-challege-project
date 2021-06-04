@@ -1,0 +1,91 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.header{
+    text-align: center;
+}
+
+.clock{
+    position: relative;
+    width: 350px;
+    border-radius: 50%;
+    border: 3px solid black;
+    height: 350px;
+    background-color: azure;
+}
+.clock .number {
+    /* Make variable in CSS */
+    --degree : 0;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* Apply the variable in to transform rotation */
+    transform: rotate(calc(var(--degree) * 1deg));
+}
+.clock .number1{--degree : 30}
+.clock .number2{--degree : 60}
+.clock .number3{--degree : 90}
+.clock .number4{--degree : 120}
+.clock .number5{--degree : 150}
+.clock .number6{--degree : 180}
+.clock .number7{--degree : 210}
+.clock .number8{--degree : 240}
+.clock .number9{--degree : 270}
+.clock .number10{--degree : 290}
+.clock .number11{--degree : 320}
+
+.clock::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 11;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    bottom: 50%;
+}
+
+.clock .hand{
+    --rotation : 0;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-radius: 15px 15px 0 0 ;
+    z-index: 10;
+    transform-origin: bottom;
+    transform: translate(-50%) rotate(calc(var(--rotation) * 1deg));
+    background-color: black;
+}
+
+.hand.second{
+    --rotation : 30;
+    width: 2px;
+    height: 165px;
+    background-color: red;
+}
+
+.hand.hour{
+    --rotation : 20;
+    width: 10px;
+    height: 90px;
+    background-color: black;
+}
+
+.hand.minute{
+    width: 5px;
+    height: 160px;
+    background-color: black;
+}
+

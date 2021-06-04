@@ -1,0 +1,20 @@
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform .5s ,border-radius .5s;
+}
+
+.circle.change{
+    border-radius: 25%;
+    transform: rotate(45deg);
+}
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
