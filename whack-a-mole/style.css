@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: grid;
+  place-content: center;
+}
+
+.section {
+  text-align: center;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin-bottom: 1.5rem;
+}
+
+.mole {
+  background-image: url("mole.png");
+  background-size: cover;
+}
